@@ -43,7 +43,7 @@
   
     function removeItemFromDataStore(id) {
       const productsAfterDelete = products.filter((product) => product.id !== id)
-      products = productsAfterDelete
+      products = productsAfterDelete 
     }
   
     function removeItemFromUI(id) {
